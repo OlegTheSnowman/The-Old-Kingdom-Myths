@@ -640,7 +640,7 @@ GITHUB_COMMIT_SOURCE = True
 # Where the output site should be located
 # If you don't use an absolute path, it will be considered as relative
 # to the location of conf.py
-OUTPUT_FOLDER = 'd:/myths'
+OUTPUT_FOLDER = 'output'
 
 # where the "cache" of partial generated content should be located
 # default: 'cache'
@@ -887,7 +887,7 @@ IMAGE_FOLDERS = {'images': 'images'}
 # )
 
 # Show teasers (instead of full posts) in indexes? Defaults to False.
-# INDEX_TEASERS = true
+INDEX_TEASERS = True
 
 # HTML fragments with the Read more... links.
 # The following tags exist and are replaced for you:
