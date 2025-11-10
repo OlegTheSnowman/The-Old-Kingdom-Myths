@@ -1,3 +1,12 @@
+.. title: Король Артур
+.. slug: korol-artur
+.. date: 2025-11-10 20:38:00 UTC+02:00
+.. tags: 
+.. category: 
+.. link: 
+.. description: 
+.. type: text
+
 Король Артур
 ============
 
