@@ -16,7 +16,7 @@ import time
 
 
 # Data about this site
-BLOG_AUTHOR = {"en": "Oleh Khokhlov", "uk": "Олег Хохлов"}  # (translatable)
+BLOG_AUTHOR = {"en": "Oleh Khokhlov and Valentin Poliansky", "uk": "Олег Хохлов та Полянський Валентин"}  # (translatable)
 BLOG_TITLE = "The-Old-Kingdom-Myths"  # (translatable)
 # This is the main URL for your site. It will be used
 # in a prominent link. Don't forget the protocol (http/https)!
@@ -26,72 +26,6 @@ SITE_URL = "https://example.com/"
 # BASE_URL = ""
 BLOG_EMAIL = "olegkhokhlov80@gmail.com"
 BLOG_DESCRIPTION = "The Old Kingdom Myths explores the ancient legends and forgotten lore of England. Journey through tales of kings, knights, spirits, and sacred places that shaped the heart of the old realm. Discover the origins of British mythology and the timeless stories that still whisper through its landscapes."  # (translatable)
-
-# Nikola is multilingual!
-#
-# Currently supported languages are:
-#
-# en        English
-# af        Afrikaans
-# ar        Arabic
-# az        Azerbaijani
-# bg        Bulgarian
-# bs        Bosnian
-# ca        Catalan
-# cs        Czech [ALTERNATIVELY cz]
-# da        Danish
-# de        German
-# el        Greek [NOT gr]
-# eo        Esperanto
-# es        Spanish
-# et        Estonian
-# eu        Basque
-# fa        Persian
-# fi        Finnish
-# fr        French
-# fur       Friulian
-# gl        Galician
-# he        Hebrew
-# hi        Hindi
-# hr        Croatian
-# hu        Hungarian
-# ia        Interlingua
-# id        Indonesian
-# it        Italian
-# ja        Japanese [NOT jp]
-# ko        Korean
-# lt        Lithuanian
-# mi        Maori
-# ml        Malayalam
-# mr        Marathi
-# nb        Norwegian (Bokmål)
-# nl        Dutch
-# oc        Occitan
-# pa        Punjabi
-# pl        Polish
-# pt        Portuguese
-# pt_br     Portuguese (Brazil)
-# ru        Russian
-# sk        Slovak
-# sl        Slovene
-# sq        Albanian
-# sr        Serbian (Cyrillic)
-# sr_latin  Serbian (Latin)
-# sv        Swedish
-# te        Telugu
-# th        Thai
-# tr        Turkish [NOT tr_TR]
-# uk        Ukrainian
-# ur        Urdu
-# vi        Vietnamese
-# zh_cn     Chinese (Simplified)
-# zh_tw     Chinese (Traditional)
-#
-# If you want to use Nikola with a non-supported language you have to provide
-# a module containing the necessary translations
-# (cf. the modules at nikola/data/themes/base/messages/).
-# If a specific post is not translated to a language, then the version
-# in the default language will be shown instead.
 
 # What is the default language?
 DEFAULT_LANG = "uk"
@@ -141,19 +75,17 @@ TRANSLATIONS_PATTERN = '{path}.{lang}.{ext}'
 
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
-("/index.html", "Home"),
-        ("/archive.html", "Archive"),
-("/blog/", "Blog"),
-        ("/categories/", "Tags"),
-        ("/rss.xml", "RSS feed"),
+("/index.html", "Головна"),
+        ("/archive.html", "Архів"),
+("/myths/", "Міфи"),
+("/aboutus/", "Про нас"),
     ),
 
-    "uk": (
-("/uk/index.html", "Головна"),
-("/uk/blog/", "блог"),
-        ("/uk/archive.html", "Архів"),
-        ("/uk/categories/", "Теги"),
-        ("/uk/rss.xml", "Стрічка у форматі RSS"),
+    "EN": (
+("/en/index.html", "home"),
+        ("/en/archive.html", "Archive"),
+("/en/myths/", "Myths"),
+("/en/aboutus/", "Aboutus"),
     ),
 }
 
@@ -245,10 +177,10 @@ THEME_CONFIG = {
 #     )
 
 POSTS = (
-    ("posts/*.rst", "blog", "post.tmpl"),
-    ("posts/*.md", "blog", "post.tmpl"),
-    ("posts/*.txt", "blog", "post.tmpl"),
-    ("posts/*.html", "blog", "post.tmpl"),
+    ("posts/*.rst", "myths", "post.tmpl"),
+    ("posts/*.md", "myths", "post.tmpl"),
+    ("posts/*.txt", "myths", "post.tmpl"),
+    ("posts/*.html", "myths", "post.tmpl"),
 )
 PAGES = (
     ("pages/*.rst", "", "page.tmpl"),
@@ -258,10 +190,10 @@ PAGES = (
 )
 
 BLOG = (
-    ("BLOG/*.rst", "BLOG", "post.tmpl"),
-    ("BLOG/*.md", "BLOG", "post.tmpl"),
-    ("BLOG/*.txt", "BLOG", "post.tmpl"),
-    ("BLOG/*.html", "BLOG", "post.tmpl"),
+    ("blog/*.rst", "myths", "post.tmpl"),
+    ("blog/*.md", "myths", "post.tmpl"),
+    ("blog/*.txt", "myths", "post.tmpl"),
+    ("blog/*.html", "myths", "post.tmpl"),
 )
 
 # Below this point, everything is optional
@@ -597,7 +529,7 @@ HIDDEN_AUTHORS = ['Guest']
 # Final location for the main blog page and sibling paginated pages is
 # output / TRANSLATION[lang] / INDEX_PATH / index-*.html
 # (translatable)
-INDEX_PATH = "blog"
+INDEX_PATH = "myths"
 
 # Optional HTML that displayed on “main” blog index.html files.
 # May be used for a greeting. (translatable)
@@ -708,7 +640,7 @@ GITHUB_COMMIT_SOURCE = True
 # Where the output site should be located
 # If you don't use an absolute path, it will be considered as relative
 # to the location of conf.py
-# OUTPUT_FOLDER = 'output'
+OUTPUT_FOLDER = 'd:/myths'
 
 # where the "cache" of partial generated content should be located
 # default: 'cache'
