@@ -1,4 +1,4 @@
-.. title: index
+.. title: Головна
 .. slug: index
 .. date: 2025-10-31 16:20:08 UTC+02:00
 .. tags: 
