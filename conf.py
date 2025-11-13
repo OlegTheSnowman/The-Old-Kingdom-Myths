@@ -35,7 +35,6 @@ DEFAULT_LANG = "uk"
 # the path will be used as a prefix for the generated pages location
 TRANSLATIONS = {
     DEFAULT_LANG: "",
-    "en": "./en",
 }
 
 # What will translated input files be named like?
@@ -533,8 +532,7 @@ INDEX_PATH = "myths"
 
 # Optional HTML that displayed on “main” blog index.html files.
 # May be used for a greeting. (translatable)
-FRONT_INDEX_HEADER = {"en": "<h1>Welcome to my blog!</h1> <p>I do hope that this works as intended!</p>", "uk": "<h1>Блог!</h1> <p>Надіюсь що він працює!</p>",}
-
+FRONT_INDEX_HEADER = {"uk": "<h1>Легендарні герої Старої Британії</h1> <p>Ця сторінка присвячена оповідям про міфічних героїв з країв Англії, Шотландії, Уельсу та Ірландії. Тут ви знайдете спокійні, але багаті на зміст розповіді — про їхній шлях, випробування і спадок, які передавалися поколіннями й створили основу народної пам’яті.</p>"}
 # Create per-month archives instead of per-year
 # CREATE_MONTHLY_ARCHIVE = False
 # Create one large archive instead of per-year
