@@ -7,54 +7,54 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>https://example.com/</loc>
-  <lastmod>2025-12-18T18:21:00Z</lastmod>
+  <lastmod>2025-12-19T12:02:00Z</lastmod>
  </url>
  <url>
   <loc>https://example.com/2025/</loc>
-  <lastmod>2025-12-18T18:21:00Z</lastmod>
+  <lastmod>2025-12-19T12:02:00Z</lastmod>
  </url>
  <url>
   <loc>https://example.com/aboutus/</loc>
-  <lastmod>2025-12-18T18:21:00Z</lastmod>
+  <lastmod>2025-12-19T12:02:00Z</lastmod>
  </url>
  <url>
   <loc>https://example.com/archive.html</loc>
-  <lastmod>2025-12-18T18:21:00Z</lastmod>
+  <lastmod>2025-12-19T12:02:00Z</lastmod>
  </url>
  <url>
   <loc>https://example.com/categories/</loc>
-  <lastmod>2025-12-18T18:21:00Z</lastmod>
+  <lastmod>2025-12-19T12:02:00Z</lastmod>
  </url>
  <url>
   <loc>https://example.com/myths/</loc>
-  <lastmod>2025-12-18T18:21:00Z</lastmod>
+  <lastmod>2025-12-19T12:02:00Z</lastmod>
  </url>
  <url>
   <loc>https://example.com/myths/fionn-mac-cumhaill/</loc>
-  <lastmod>2025-12-18T18:21:00Z</lastmod>
+  <lastmod>2025-12-19T12:02:00Z</lastmod>
  </url>
  <url>
   <loc>https://example.com/myths/hound-of-culann/</loc>
-  <lastmod>2025-12-18T18:21:00Z</lastmod>
+  <lastmod>2025-12-19T12:02:00Z</lastmod>
  </url>
  <url>
   <loc>https://example.com/myths/korol-artur/</loc>
-  <lastmod>2025-12-18T18:21:00Z</lastmod>
+  <lastmod>2025-12-19T12:02:00Z</lastmod>
  </url>
  <url>
   <loc>https://example.com/myths/lleu-llaw-gyffes/</loc>
-  <lastmod>2025-12-18T18:21:00Z</lastmod>
+  <lastmod>2025-12-19T12:02:00Z</lastmod>
  </url>
  <url>
   <loc>https://example.com/myths/morgana-le-fei/</loc>
-  <lastmod>2025-12-18T18:21:00Z</lastmod>
+  <lastmod>2025-12-19T12:02:00Z</lastmod>
  </url>
  <url>
   <loc>https://example.com/myths/oisin/</loc>
-  <lastmod>2025-12-18T18:21:00Z</lastmod>
+  <lastmod>2025-12-19T12:02:00Z</lastmod>
  </url>
  <url>
   <loc>https://example.com/myths/robin-hood/</loc>
-  <lastmod>2025-12-18T18:21:00Z</lastmod>
+  <lastmod>2025-12-19T12:02:00Z</lastmod>
  </url>
 </urlset>
